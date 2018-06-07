@@ -1,0 +1,15 @@
+.fondo_mario {
+	height: 400px;
+	width: 80%;
+	border: 5px solid #C00;
+	margin: 20px;
+	padding: 20px;
+	
+}
+    div {
+        background-image: url(./assets/suelo.png), url(./assets/mario.png), url(./assets/nubes.png);
+        background-position: left bottom, left bottom, left top;
+        background-repeat: repeat-x, no-repeat, repeat-x;
+        background-size: auto, 350px, auto;
+        background-color: #a4d3ff;
+    }
